@@ -48,7 +48,7 @@ class Detector_class:
     def main(self):
         print("aruco detector __init__")
         # Загрузить предопределенный словарь aruco-маркеров
-        dictionary = cv.aruco.getPredefinedDictionary(cv.aruco.DICT_6X6_250)
+        dictionary = cv.aruco.getPredefinedDictionary(cv.aruco.DICT_4X4_250)
 
         # Инициализировать параметры детектора, используя значения по умолчанию
         detector_parameters =  cv.aruco.DetectorParameters()
